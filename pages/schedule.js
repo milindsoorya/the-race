@@ -1,12 +1,12 @@
-import Container from "../components/Container";
-import LandingPage from "../components/LandingPage";
+import { useState } from "react";
+import Table from "../components/Table";
 
-export default function Home({ raceData }) {
+function Schedule({ raceData }) {
+  const [schedule, setSchedule] = useState(raceData);
+
   return (
-    <div className="h-screen">
-      <Container>
-        <LandingPage raceData={raceData} />
-      </Container>
+    <div className="">
+      <Table schedule={schedule} />
     </div>
   );
 }
@@ -22,3 +22,5 @@ export async function getServerSideProps() {
   // Pass data to the page via props
   return { props: { raceData } };
 }
+
+export default Schedule;
