@@ -10,7 +10,7 @@
     
   </p>
   
-  <h2>Check it out here --> (live url)[https://the-race.vercel.app/]
+  <h2>Check it out here --> [live url](https://the-race.vercel.app/)
 </div>
 
 
