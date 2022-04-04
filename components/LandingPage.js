@@ -1,10 +1,11 @@
-import Table from "./Table";
+import TableNew from "./TableNew";
 
 export default function LandingPage(props) {
   const raceData = props.raceData;
+
   return (
-    <header className="bg-gray-900 w-full flex justify-center">
-      <Table schedule={raceData} />
-    </header>
+    <div className="bg-white w-full flex justify-center mb-12">
+      <TableNew raceData={raceData} />
+    </div>
   );
 }

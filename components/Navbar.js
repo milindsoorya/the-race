@@ -1,13 +1,30 @@
 export default function Navbar() {
   return (
-    <div className="sticky-nav w-full my-0 border-b border-opacity-10 border-gray-400 bg-navbar-light dark:bg-navbar-dark bg-opacity-30">
-      <nav className="flex flex-col py-2 sm:flex-row sm:justify-center sm:items-center">
-        <div>
-          <a href="#" className="text-2xl font-semibold text-white hover:text-gray-300">
-            <span className="text-red-700">F1</span> Calendar
+    <nav className="bg-white dark:bg-gray-800">
+      <div className="container p-6 mx-auto">
+        <a
+          className="block text-2xl font-bold text-center text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
+          href="#"
+        >
+          The Race
+        </a>
+
+        <div className="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300">
+          <a
+            href="#"
+            className="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
+          >
+            home
+          </a>
+
+          <a
+            href="#"
+            className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
+          >
+            blog
           </a>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
