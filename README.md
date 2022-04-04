@@ -9,6 +9,8 @@
     A website that curates all the info about racing events happening at the moment.
     
   </p>
+  
+  <h2>Check it out here --> (live url)[https://the-race.vercel.app/]
 </div>
 
 
